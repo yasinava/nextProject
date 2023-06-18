@@ -1,0 +1,23 @@
+.navContainer {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLogo {
+  font-weight: bold;
+  font-size: 22px;
+}
+.navLinks {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.navLogout {
+  border: none;
+  padding: 5px;
+  background-color: #53c28b;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}

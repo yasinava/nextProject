@@ -1,0 +1,41 @@
+.categoryContainer {
+  .catTitle {
+    color: #53c28b;
+  }
+  .catItem {
+    display: flex;
+    gap: 50px;
+    margin: 70px 0 130px;
+    h1 {
+      margin: 10px 0;
+    }
+    p {
+      margin: 5px 0;
+    }
+    &:nth-child(2n + 1) {
+      flex-direction: row-reverse;
+    }
+    .catContent {
+      flex: 1;
+      button {
+        padding: 15px 30px;
+        border: none;
+        background-color: #53c28b;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        width: max-content;
+        margin: 20px 0;
+      }
+    }
+    .categoryImg {
+      flex: 1;
+      height: 400px;
+      position: relative;
+      .catImg {
+        border-radius: 10px;
+        object-fit: contain;
+      }
+    }
+  }
+}

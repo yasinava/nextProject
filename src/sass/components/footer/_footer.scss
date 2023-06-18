@@ -1,0 +1,16 @@
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  font-size: 14px;
+  .footerSocial {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    svg {
+      cursor: pointer;
+      opacity: 0.6;
+    }
+  }
+}

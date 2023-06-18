@@ -9,10 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "@uploadcare/blocks": "0.22.13",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.4",
+    "mongoose": "6.11.1",
     "next": "13.4.4",
+    "next-auth": "^4.22.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "sass": "^1.63.2",
+    "swr": "^2.1.5"
   }
 }

@@ -1,0 +1,20 @@
+.darkContainer {
+  border: 1px solid #53c28b;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  justify-content: space-between;
+  position: relative;
+  gap: 4px;
+  .darkIcon {
+    font-size: 12px;
+  }
+  .darkBall {
+    height: 15px;
+    width: 15px;
+    background-color: #53c28b;
+    border-radius: 50%;
+    position: absolute;
+  }
+}

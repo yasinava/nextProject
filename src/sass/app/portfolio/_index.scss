@@ -1,0 +1,39 @@
+@import "./category/index";
+.portfolioMailTitle {
+  font-size: 100px;
+}
+.portfolioContainer {
+  .portSelectTitle {
+    margin: 20px 0;
+  }
+  .portItems {
+    display: flex;
+    gap: 50px;
+    a {
+      border: 5px solid #bbb;
+      border-radius: 5px;
+      width: 300px;
+      height: 400px;
+      position: relative;
+      background-size: cover !important;
+      &:nth-child(1) {
+        background: url("/portfolioitem1.jpg");
+      }
+      &:nth-child(2) {
+        background: url("/portfolioitem2.jpg");
+      }
+      &:nth-child(3) {
+        background: url("/portfolioitem3.jpg");
+      }
+      span {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 40px;
+      }
+      &:hover {
+        color: #53c28b;
+      }
+    }
+  }
+}
